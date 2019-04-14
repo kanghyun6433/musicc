@@ -1,0 +1,115 @@
+[17.919540405] 2019-04-14 11:36:50,879 - INFO - launcher: Starting sanity checks
+[17.919540405] 2019-04-14 11:36:50,879 - INFO - launcher: Checking for Python 3.5+
+[17.919540405] 2019-04-14 11:36:50,879 - INFO - launcher: Checking console encoding
+[17.919540405] 2019-04-14 11:36:50,879 - INFO - launcher: Setting console encoding to UTF-8
+[17.919540405] 2019-04-14 11:36:50,879 - INFO - launcher: Ensuring we're in the right environment
+[18.917083740] 2019-04-14 11:36:50,880 - INFO - launcher: Adding local bins/ folder to path
+[18.917083740] 2019-04-14 11:36:50,880 - INFO - launcher: Required checks passed.
+[19.914388657] 2019-04-14 11:36:50,881 - INFO - launcher: Optional checks passed.
+[19.914388657] 2019-04-14 11:36:50,881 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.8692009449005127] 2019-04-14 11:36:53,730 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 213 in _setup_logging: Set logging level to INFO
+[2.8692009449005127] 2019-04-14 11:36:53,730 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 80 in __init__: =========== MusicBot (version 1.9.6_1) ===========
+[2.8701767921447754] 2019-04-14 11:36:53,731 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[2.871193409] launcher-INFO: Connecting
+[6.3093929290771484] 2019-04-14 11:36:57,170 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 1011 in on_ready: Connection established, ready to go.
+[6.3093929290771484] 2019-04-14 11:36:57,170 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 324 in _cache_app_info: Caching app info
+[6.5337924957275391] 2019-04-14 11:36:57,395 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[6.5367844104766846] 2019-04-14 11:36:57,398 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 844 in _scheck_server_permissions: Checking server permissions
+[6.5367844104766846] 2019-04-14 11:36:57,398 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[6.5367844104766846] 2019-04-14 11:36:57,398 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 852 in _scheck_configs: Validating config
+[6.5367844104766846] 2019-04-14 11:36:57,398 - DEBUG - musicbot.config | In config.py::MainThread(17112), line 155 in async_validate: Validating options...
+[6.5367844104766846] 2019-04-14 11:36:57,398 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 855 in _scheck_configs: Validating permissions config
+[6.5367844104766846] 2019-04-14 11:36:57,398 - DEBUG - musicbot.permissions | In permissions.py::MainThread(17112), line 59 in async_validate: Validating permissions...
+[6.5367844104766846] 2019-04-14 11:36:57,398 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1022 in on_ready: Connected to Discord!
+[6.5377817153930664] 2019-04-14 11:36:57,398 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1032 in on_ready: Bot:   566422253827391498/젠틀맨#5904 [BOT]
+[6.5377817153930664] 2019-04-14 11:36:57,398 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1040 in on_ready: Owner: 491383382748692495/RATE#8605
+
+[6.5377817153930664] 2019-04-14 11:36:57,398 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1043 in on_ready: Server List:
+[6.5387790203094482] 2019-04-14 11:36:57,399 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1044 in <listcomp>:  - fwwf
+[6.5387790203094482] 2019-04-14 11:36:57,399 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1044 in <listcomp>:  - ㄹㅎ3
+[6.5387790203094482] 2019-04-14 11:36:57,399 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1044 in <listcomp>:  - ㄹㅈ
+[6.5387790203094482] 2019-04-14 11:36:57,399 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1088 in on_ready: Not bound to any text channels
+[6.5397777557373047] 2019-04-14 11:36:57,400 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1114 in on_ready: Not autojoining any voice channels
+[6.5397777557373047] 2019-04-14 11:36:57,400 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1118 in on_ready: Options:
+[6.5397777557373047] 2019-04-14 11:36:57,400 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1120 in on_ready:   Command prefix: 뤼-
+[6.5397777557373047] 2019-04-14 11:36:57,400 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1121 in on_ready:   Default volume: 25%
+[6.5397777557373047] 2019-04-14 11:36:57,400 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[6.5407738685607910] 2019-04-14 11:36:57,401 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[6.5407738685607910] 2019-04-14 11:36:57,401 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1125 in on_ready:   Auto-Summon: Enabled
+[6.5407738685607910] 2019-04-14 11:36:57,401 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1126 in on_ready:   Auto-Playlist: Disabled
+[6.5417714118957520] 2019-04-14 11:36:57,402 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1127 in on_ready:   Auto-Pause: Enabled
+[6.5427687168121338] 2019-04-14 11:36:57,403 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1128 in on_ready:   Delete Messages: Enabled
+[6.5427687168121338] 2019-04-14 11:36:57,403 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1130 in on_ready:     Delete Invoking: Disabled
+[6.5437653064727783] 2019-04-14 11:36:57,404 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1131 in on_ready:   Debug Mode: Disabled
+[6.5437653064727783] 2019-04-14 11:36:57,404 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1132 in on_ready:   Downloaded songs will be saved
+[6.5447628498077393] 2019-04-14 11:36:57,405 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 258 in _join_startup_channels: Found owner in "일반"
+[6.5457606315612793] 2019-04-14 11:36:57,406 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 267 in _join_startup_channels: Attempting to join fwwf/일반
+[6.5457606315612793] 2019-04-14 11:36:57,406 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 437 in get_voice_client: Connection attempt 1 to 일반
+[6.5457606315612793] 2019-04-14 11:36:57,406 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[6.5457606315612793] 2019-04-14 11:36:57,406 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[6.5457606315612793] 2019-04-14 11:36:57,406 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[6.7661707401275635] 2019-04-14 11:36:57,627 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 566422253827391498/젠틀맨#5904 on fwwf/일반 -> [JOIN, CONNECT]
+[6.7661707401275635] 2019-04-14 11:36:57,627 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 2575 in on_voice_state_update: 566422253827391498/젠틀맨#5904 has joined fwwf/일반
+[6.7661707401275635] 2019-04-14 11:36:57,627 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[6.9063551425933838] 2019-04-14 11:36:57,767 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[7.2078995704650879] 2019-04-14 11:36:58,069 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[7.2078995704650879] 2019-04-14 11:36:58,069 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 463 in get_voice_client: Connected in 0.7s
+[7.2078995704650879] 2019-04-14 11:36:58,069 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 464 in get_voice_client: Connected to fwwf/일반
+[7.2088973522186279] 2019-04-14 11:36:58,070 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 805 in deserialize_queue: Deserializing queue for 563897840548446228
+[7.3225929737091064] 2019-04-14 11:36:58,183 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 555 in get_player: Created player via deserialization for server 563897840548446228 with 1 entries
+[7.3225929737091064] 2019-04-14 11:36:58,183 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 283 in _join_startup_channels: Joined fwwf/일반
+[7.3225929737091064] 2019-04-14 11:36:58,183 - VOICEDEBUG - musicbot.player | In player.py::MainThread(17112), line 311 in websocket_check: Starting websocket check loop for fwwf
+[7.3235898017883301] 2019-04-14 11:36:58,184 - FFMPEG - musicbot.player | In player.py::MainThread(17112), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-wA0UQ1bAu8k-6.webm
+[7.4183645248413086] 2019-04-14 11:36:58,279 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[69.0842294692993164] 2019-04-14 11:37:59,945 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 2628 in on_server_join: Bot has been joined server: PSY 젠틀학회
+[69.0852272510528564] 2019-04-14 11:37:59,946 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2641 in on_server_join: Creating data folder for server 566619507687161863
+[81.8575456142425537] 2019-04-14 11:38:12,718 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 386156022642769922/소니쿠#8867 on PSY 젠틀학회/노동요다 마뤼야 -> [CONNECT, MUTE]
+[382.5623946189880371] 2019-04-14 11:43:13,423 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 491383382748692495/RATE#8605 on fwwf/일반 -> [LEAVE, DISCONNECT]
+[382.5623946189880371] 2019-04-14 11:43:13,423 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 2575 in on_voice_state_update: 491383382748692495/RATE#8605 has left fwwf/일반
+[382.5623946189880371] 2019-04-14 11:43:13,423 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 2613 in on_voice_state_update: Pausing in fwwf/일반 (empty channel)
+[382.5643894672393799] 2019-04-14 11:43:13,425 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 491383382748692495/RATE#8605 on PSY 젠틀학회/음성채팅이다 뤼기야 -> [CONNECT]
+[384.5303401947021484] 2019-04-14 11:43:15,391 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 491383382748692495/RATE#8605 on PSY 젠틀학회/노동요다 마뤼야 -> [MOVE]
+[386.9090425968170166] 2019-04-14 11:43:17,770 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 491383382748692495/RATE#8605 on PSY 젠틀학회/음성채팅이다 뤼기야 -> [MOVE]
+[388.0601232051849365] 2019-04-14 11:43:18,921 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 491383382748692495/RATE#8605 on PSY 젠틀학회/노동요다 마뤼야 -> [MOVE]
+[389.7972068786621094] 2019-04-14 11:43:20,658 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 386156022642769922/소니쿠#8867 on PSY 젠틀학회/노동요다 마뤼야 -> [DISCONNECT]
+[401.5385928153991699] 2019-04-14 11:43:32,399 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-play 젠틀젠틀 6년젠
+[401.5395894050598145] 2019-04-14 11:43:32,400 - ERROR - musicbot.bot | In bot.py::MainThread(17112), line 2515 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use 뤼-summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\kimka\Desktop\MusicBot-1.9.6_1\MusicBot-1.9.6_1\musicbot\bot.py", line 2423, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\kimka\Desktop\MusicBot-1.9.6_1\MusicBot-1.9.6_1\musicbot\bot.py", line 563, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use 뤼-summon to summon it to your voice channel.
+[526.3269731998443604] 2019-04-14 11:45:37,188 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-play 젠틀젠틀
+[526.3279705047607422] 2019-04-14 11:45:37,189 - ERROR - musicbot.bot | In bot.py::MainThread(17112), line 2515 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use 뤼-summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\kimka\Desktop\MusicBot-1.9.6_1\MusicBot-1.9.6_1\musicbot\bot.py", line 2423, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\kimka\Desktop\MusicBot-1.9.6_1\MusicBot-1.9.6_1\musicbot\bot.py", line 563, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use 뤼-summon to summon it to your voice channel.
+[542.1646385192871094] 2019-04-14 11:45:53,025 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-summon 노동요다 마륑
+[542.1656148433685303] 2019-04-14 11:45:53,026 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 1804 in cmd_summon: Joining PSY 젠틀학회/노동요다 마뤼야
+[542.1666114330291748] 2019-04-14 11:45:53,027 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 437 in get_voice_client: Connection attempt 1 to 노동요다 마뤼야
+[542.1666114330291748] 2019-04-14 11:45:53,027 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[542.1666114330291748] 2019-04-14 11:45:53,027 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[542.1666114330291748] 2019-04-14 11:45:53,027 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[542.3654870986938477] 2019-04-14 11:45:53,226 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 566422253827391498/젠틀맨#5904 on PSY 젠틀학회/노동요다 마뤼야 -> [JOIN, CONNECT]
+[542.3654870986938477] 2019-04-14 11:45:53,226 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 2575 in on_voice_state_update: 566422253827391498/젠틀맨#5904 has joined PSY 젠틀학회/노동요다 마뤼야
+[542.3664844036102295] 2019-04-14 11:45:53,227 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[542.6764638423919678] 2019-04-14 11:45:53,537 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[543.2376165390014648] 2019-04-14 11:45:54,098 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[543.2376165390014648] 2019-04-14 11:45:54,098 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 463 in get_voice_client: Connected in 1.1s
+[543.2376165390014648] 2019-04-14 11:45:54,098 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 464 in get_voice_client: Connected to PSY 젠틀학회/노동요다 마뤼야
+[543.2386145591735840] 2019-04-14 11:45:54,099 - VOICEDEBUG - musicbot.player | In player.py::MainThread(17112), line 311 in websocket_check: Starting websocket check loop for PSY 젠틀학회
+[562.5758128166198730] 2019-04-14 11:46:13,437 - INFO - musicbot.bot | In bot.py::MainThread(17112), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-play 젠틀젠틀6년젠
+[568.8425707817077637] 2019-04-14 11:46:19,703 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 781 in serialize_queue: Serializing queue for 566619507687161863
+[568.8455572128295898] 2019-04-14 11:46:19,706 - INFO - musicbot.entry | In entry.py::MainThread(17112), line 195 in _download: Download cached: https://www.youtube.com/watch?v=wA0UQ1bAu8k
+[570.8415715694427490] 2019-04-14 11:46:21,702 - FFMPEG - musicbot.player | In player.py::MainThread(17112), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-wA0UQ1bAu8k-6.webm
+[570.8435668945312500] 2019-04-14 11:46:21,704 - DEBUG - musicbot.bot | In bot.py::MainThread(17112), line 781 in serialize_queue: Serializing queue for 566619507687161863
+[630.0784766674041748] 2019-04-14 11:47:20,939 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 491383382748692495/RATE#8605 on PSY 젠틀학회/노동요다 마뤼야 -> [MUTE, DEAFEN]
+[668.6342298984527588] 2019-04-14 11:47:59,495 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(17112), line 2564 in on_voice_state_update: Voice state update for 491383382748692495/RATE#8605 on PSY 젠틀학회/노동요다 마뤼야 -> [UNMUTE, UNDEAFEN]
+[704.8221151828765869] 2019-04-14 11:48:35,683 - WARNING - musicbot.bot | In bot.py::MainThread(17112), line 2372 in on_message: Ignoring command from myself (뤼-운세,뤼-골라,뤼-오늘,뤼-말해,뤼-정보,뤼-play,뤼-queue,뤼-skip.뤼-np,뤼-perms)
